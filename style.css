@@ -1,0 +1,105 @@
+h1::before {  
+	transform: scaleX(0);
+	transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }
+  
+  h1::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	inset: 0 0 0 0;
+	background: hsl(200 100% 80%);
+	z-index: -1;
+	transition: transform .3s ease;
+  }
+  
+  h1 {
+	position: relative;
+	font-size: 5rem;
+  }
+  
+  html {
+	block-size: 100%;
+	inline-size: 100%;
+  }
+
+  .ccsticky-nav {
+    width: 100%;
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    background: #139ed8;
+    }
+    
+    .ccsticky-nav ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    }
+    
+    .ccsticky-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .ccsticky-nav ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    }
+    
+    .ccsticky-nav ul li a:hover {
+    color: #34495E;
+    }
+    
+    .banner {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: minmax(30vh, 1fr) minmax(30vh, 1fr);
+      grid-gap: 1rem;
+  }
+  
+  .promo:first-child {
+      grid-column: 1 / 2;
+      grid-row: span 2;
+  }
+  
+  .promo:nth-child(2) {
+      grid-column: 2 / 4;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .promo {
+      background-image: url(https://cdn.corporatefinanceinstitute.com/assets/Industry-1024x576.jpeg);
+      background-size: cover;
+      background-color: lightgrey;
+      background-blend-mode: overlay;
+  
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  
+      font-size: 2rem;
+      padding: 1rem;
+  
+  }

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 - Fonts</title>
+  <style>
+    @font-face {
+      font-family: "chunk-five";
+      src: url('ChunkFive-Regular.otf') format('opentype');
+    }
+    h1 {
+      font-family: "chunk-five", Arial;
+      text-align: center;
+      text-shadow: 2px 2px #252c29;
+    }
+    h2 {
+      font-family: "chunk-five", Arial;
+      text-align: center;
+      text-shadow: 1px 1px #252c29;
+    }
+
+  </style>
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,
+   initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Layout dengan Elemen Semantik</title>
+  <style>
+    body{
+      background-image: url('latarbelakang.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100 vh;
+      width:auto;
+    }
+  </style>
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Mesin Produksi</h1>
+  </header>
+
+  <nav class="ccsticky-nav">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </nav>
+
+
+  <main>
+   <article>
+    <h1>MESIN PRODUKSI MANUFAKTUR</h1>
+    <p>Mesin produksi adalah mesin yang digunakan untuk memproduksi barang dalam skala besar
+       .Biasanya mesin produksi dapat digunakan dalam berbagai jenis industri, seperti industri makanan, farmasi, otomotif, dan lain-lain.
+    </p>
+  </article>
+
+  <section id="penguin-photos">
+    <h2>Mesin Produksi</h2>
+    <div class="grid-container">
+      <div id="item-1">
+        <img
+          src="https://www.mechanicalbooster.com/wp-content/uploads/2016/12/Main-parts-of-vertical-milling-machine.jpg"
+          alt="mesin milling."
+        />
+      </div>
+      <div id="item-2">
+        <img
+          src="https://marvo.eu/wp-content/uploads/2019/11/draaibank-Cazeneuve.jpg"
+          alt="mesin bubut."
+        />
+      </div>
+      <div id="item-3">
+        <img
+          src="https://ravimachines.com/wp-content/uploads/2016/07/Pillar-Drilling-Machine-scaled.jpg"
+          alt="mesin bor."
+        />
+      </div>
+      <div id="item-4">
+        <img
+          src="https://scemama.ch/wp-content/uploads/2020/10/2170089-01-3.jpg"
+          alt="mesin gerinda."
+        />
+      </div>
+    </div>
+  </section>
+  <h2>manufacturing machine use in industries such as </h2>
+  <section class="banner">
+    
+    <a href="#" class="promo">automotive</a>
+    <a href="#" class="promo">electronics</a>
+    <a href="#" class="promo">food and drugs </a>
+    <a href="#" class="promo">agricultural</a>
+</section>
+
+  <section id="penguin-facts">
+    <h2>manufacturing machine proccess</h2>
+    <div class="flex-container">
+      <ul>
+        <li>cut </li>
+        <li>drill strong</li>
+        <li> metal process</li>
+        <li>solid material</li>
+      </ul>
+      <figure>
+        <img
+          src="https://yenaengineering.nl/wp-content/uploads/2019/11/machining3-1024x683.jpg"
+          alt="milling process"
+        />
+        <figcaption>lathe <em>machine</em> proccess.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="form-section">
+    <h2>Are you interest with manufacturing machine ?</h2>
+    <form action="#">
+      <fieldset>
+        
+        <div>
+          <form action="/action_page.php">
+            <legend>Personal Data:</legend>
+            <fieldset>
+             <label for="fname">First name:</label>
+             <input type="text" id="fname" name="fname"><br><br>
+             <label for="lname">Last name:</label>
+             <input type="text" id="lname" name="lname"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email"><br><br>
+             <label for="birthday">Birthday:</label>
+             <input type="date" id="birthday" name="birthday"><br><br>
+             <input type="submit" value="Submit">
+            </fieldset>
+           </form>
+        </div>
+
+        <div>
+          <p>Province</p>
+         <select class="form-control m-bootstrap-select m_selectpicker" tabindex="-98" name="regional_code" required="">
+          <option value="11">
+              ACEH
+          </option>
+          <option value="12">
+              SUMATERA UTARA
+          </option>
+          <option value="13">
+              SUMATERA BARAT
+          </option>
+          <option value="14">
+              R I A U
+          </option>
+          <option value="15">
+              J A M B I
+          </option>
+          <option value="16">
+              SUMATERA SELATAN
+          </option>
+          <option value="17">
+              BENGKULU
+          </option>
+          <option value="18">
+              LAMPUNG
+          </option>
+          <option value="19">
+              KEPULAUAN BANGKA BELITUNG
+          </option>
+          <option value="21">
+              KEPULAUAN RIAU
+          </option>
+          <option value="31">
+              DKI JAKARTA
+          </option>
+          <option value="32">
+              JAWA BARAT
+          </option>
+          <option value="33">
+              JAWA TENGAH
+          </option>
+          <option value="34">
+              DI YOGYAKARTA
+          </option>
+          <option value="35">
+              JAWA TIMUR
+          </option>
+          <option value="36">
+              B A N T E N
+          </option>
+          <option value="51">
+              BALI
+          </option>
+          <option value="52">
+              NUSA TENGGARA BARAT
+          </option>
+          <option value="53">
+              NUSA TENGGARA TIMUR
+          </option>
+          <option value="61">
+              KALIMANTAN BARAT
+          </option>
+          <option value="62">
+              KALIMANTAN TENGAH
+          </option>
+          <option value="63">
+              KALIMANTAN SELATAN
+          </option>
+          <option value="64">
+              KALIMANTAN TIMUR
+          </option>
+          <option value="71">
+              SULAWESI UTARA
+          </option>
+          <option value="73">
+              SULAWESI SELATAN
+          </option>
+          <option value="74">
+              SULAWESI TENGGARA
+          </option>
+          <option value="75">
+              GORONTALO
+          </option>
+          <option value="76">
+              SULAWESI BARAT
+          </option>
+          <option value="81">
+              MALUKU
+          </option>
+          <option value="82">
+              MALUKU UTARA
+          </option>
+          <option value="94">
+              PAPUA
+          </option>
+          <option value="91">
+              PAPUA BARAT
+          </option>
+          <option value="72">
+              SULAWESI TENGAH
+          </option>
+          <option value="65">
+              KALIMANTAN UTARA
+          </option>
+         </select>
+
+        </div>
+
+        <div>
+          <p>Are you living in Indonesia?</p>
+          <input type="radio" id="yes" name="isIndonesia" value="Male" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="isIndonesia" value="Female" />
+          <label for="no">No</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Additional information:</legend>
+        <div>
+          <p>what dou you think about manufacturing machine?</p>
+          <form>
+             <fieldset>
+              <legend>Choose your favorite machine</legend>
+
+                <input type="radio" id="kraken" name="monster" value="K">
+                <label for="kraken">milling</label><br>
+
+                <input type="radio" id="sasquatch" name="monster" value="S">
+                <label for="sasquatch">lathe</label><br>
+
+                <input type="radio" id="mothman" name="monster" value="M">
+                <label for="mothman">drilling</label>
+               </fieldset>
+            </form>
+        </div>
+        <div>
+          <p>Tell us why you interested manufacturing machine </p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div>
+          <p>Upload your CV </p>
+          <input
+            type="file"
+            id="photo"
+            name="makanan"
+            required
+            accept="image/png, image/jpeg"
+          />
+       
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  </main>
+  <footer>
+    Copyright &copy; 2023 by Firdaus section barcelona 
+  </footer>
+
+</body>
+
+</html>
