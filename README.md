@@ -65,10 +65,14 @@ di halaman ini ada dua advanced form elemnet yaitu unuk form untuk tanggal dan p
 
 6 animation
 
-ketika kursor diarahkan ke text H1 maka ada animasi transisi di  latar belakang tulisan
+ada efek animasi rotasi pada tulisan machine 
+
+dan efek transisi pada gambar paling bawah denngan menggunakan opacity
+
+
 
 
 link netifly
 
-https://imaginative-peony-fa283d.netlify.app/
+https://poetic-profiterole-a2e1d9.netlify.app/
 
