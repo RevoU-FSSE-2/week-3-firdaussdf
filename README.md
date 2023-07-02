@@ -66,9 +66,12 @@ di halaman ini ada dua advanced form elemnet yaitu unuk form untuk tanggal dan p
 6 animation
 
 ada efek animasi rotasi pada tulisan machine 
+![rotasi tulisan](https://github.com/RevoU-FSSE-2/week-3-firdaussdf/assets/137057784/e15ac1bd-b121-4a61-8c4e-78823819693c)
 
-dan efek transisi pada gambar paling bawah denngan menggunakan opacity
 
+dan efek transisi pada gambar blur paling bawah denngan menggunakan opacity
+
+![tulisan blur](https://github.com/RevoU-FSSE-2/week-3-firdaussdf/assets/137057784/056e2a58-85fd-4c21-a9ad-f7150cc0afcd)
 
 
 
